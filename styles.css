@@ -18,3 +18,16 @@
         a {
             color: white;
         }
+        
+        .overlay {
+            position: absolute;
+            z-index: 1;
+            top: 0;
+            left: 0;
+            height: 100%;
+            right: 0;
+            bottom: 0;
+            padding: 0 !important;
+            margin: 0 !important;
+            background-color: rgba(10, 10, 10, 0.1);
+        }
