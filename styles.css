@@ -31,3 +31,15 @@
             margin: 0 !important;
             background-color: rgba(10, 10, 10, 0.1);
         }
+        
+        nav {
+            position: absolute;
+            z-index: 2;
+            top: 0;
+            left: 0;
+            right: 0;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            padding: 40px 60px 0 60px;
+        }
