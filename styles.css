@@ -41,5 +41,12 @@
             display: flex;
             flex-wrap: wrap;
             justify-content: space-between;
-            padding: 40px 60px 0 60px;
+            padding: 30px 60px 0 60px;
+        }
+        
+        nav li {
+            list-style: none;
+            display: inline-block;
+            padding-left: 10px;
+            padding-right: 10px;
         }
