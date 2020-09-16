@@ -78,6 +78,20 @@
                 display: flex;
                 justify-content: center;
                 flex-wrap: wrap;
-                margin-top: 50px;
-                padding-bottom: 100px;
+                margin-top: 10px;
+            }
+            
+            .image {
+                margin: 10px;
+                height: 300px;
+                text-align: center;
+                border: 1px solid black;
+                margin-bottom: 100px;
+                position: relative;
+            }
+            
+            .resize_fit_center {
+                max-width: 100%;
+                max-height: 100%;
+                vertical-align: middle;
             }
