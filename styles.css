@@ -5,6 +5,10 @@
                 font-family: 'Roboto', sans-serif;
             }
             
+            h3 {
+                margin-top: 7px;
+            }
+            
             header {
                 background-image: url('/background.jpg');
                 background-repeat: no-repeat;
