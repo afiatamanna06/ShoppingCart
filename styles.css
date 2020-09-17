@@ -95,3 +95,13 @@
                 max-height: 100%;
                 vertical-align: middle;
             }
+            
+            .add-cart {
+                position: absolute;
+                width: 100%;
+                background-color: darkgray;
+                transition: all 0.3s ease-in-out;
+                opacity: 0;
+                cursor: pointer;
+                text-align: center;
+            }
