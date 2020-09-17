@@ -99,9 +99,20 @@
             .add-cart {
                 position: absolute;
                 width: 100%;
+                right: 0;
                 background-color: darkgray;
                 transition: all 0.3s ease-in-out;
                 opacity: 0;
                 cursor: pointer;
                 text-align: center;
+            }
+            
+            .image:hover .cart1,
+            .image:hover .cart2,
+            .image:hover .cart3,
+            .image:hover .cart4 {
+                bottom: 0px;
+                opacity: 1;
+                padding: 10px;
+                text-decoration: none;
             }
