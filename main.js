@@ -7,5 +7,7 @@ for (let i = 0; i < carts.length; i++) {
 }
 
 function cartNumbers() {
+    let productNumbers = localStorage.getItem('cartNumbers');
+    productNumbers = parseInt(productNumbers);
     localStorage.setItem("cartNumbers", 1);
 }
