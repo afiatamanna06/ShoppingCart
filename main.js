@@ -52,8 +52,14 @@ function cartNumbers(product) {
 }
 
 function setItems() {
+
     product.inCart = 1;
-    localStorage.setItem('productsInCart', )
+
+    let cartItems = {
+        [product.tag]: product
+    }
+
+    localStorage.setItem('productsInCart', JSON.stringify(cartItems));
 }
 
 onLoadCartNumbers();
