@@ -55,6 +55,12 @@ function setItems() {
     let cartItems = localStorage.getItem('productsInCart');
     cartItems = JSON.parse(cartItems);
 
+    if (cartItems != null) {
+        cartItems[product.tag].inCart += 1;
+    } else {
+
+    }
+
     product.inCart = 1;
 
     cartItems = {
