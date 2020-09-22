@@ -52,10 +52,12 @@ function cartNumbers(product) {
 }
 
 function setItems() {
+    let cartItems = localStorage.getItem('productsInCart');
+    cartItems = JSON.parse(cartItems);
 
     product.inCart = 1;
 
-    let cartItems = {
+    cartItems = {
         [product.tag]: product
     }
 
