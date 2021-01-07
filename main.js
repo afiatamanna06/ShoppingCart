@@ -57,7 +57,7 @@ function setItems(product) {
     cartItems = JSON.parse(cartItems);
 
     if (cartItems != null) {
-        if (cartItems[product.tag] != undefined) {
+        if (cartItems[product.tag] == undefined) {
             cartItems = {
                 ...cartItems,
                 [product.tag]: product
