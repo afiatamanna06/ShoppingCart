@@ -52,7 +52,7 @@ function cartNumbers(product) {
     setItems(product);
 }
 
-function setItems() {
+function setItems(product) {
     let cartItems = localStorage.getItem('productsInCart');
     cartItems = JSON.parse(cartItems);
 
@@ -60,14 +60,14 @@ function setItems() {
         if (cartItems[product.tag] != undefined) {
             cartItems = {
                 ...cartItems,
-                [product.tag]: product;
+                [product.tag]: product
             }
         }
         cartItems[product.tag].inCart += 1;
     } else {
         product.inCart = 1;
         cartItems = {
-            [product.tag]: product;
+            [product.tag]: product
         }
 
     }
