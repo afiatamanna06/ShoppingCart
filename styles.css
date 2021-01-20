@@ -122,3 +122,10 @@
                 padding: 45px;
                 text-decoration: none;
             }
+            
+            .products-container {
+                max-width: 650px;
+                justify-content: space-around;
+                margin: 0 auto;
+                margin-top: 50px;
+            }
