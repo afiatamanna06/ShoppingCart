@@ -139,3 +139,7 @@
                 border-bottom: 4px solid lightgray;
                 margin: 0 auto;
             }
+            
+            .product-title {
+                width: 45%;
+            }
