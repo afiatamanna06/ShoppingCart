@@ -78,7 +78,8 @@
                 text-decoration: none;
             }
             
-            .container {
+            .container,
+            .products-container {
                 display: flex;
                 justify-content: center;
                 flex-wrap: wrap;
@@ -128,4 +129,13 @@
                 justify-content: space-around;
                 margin: 0 auto;
                 margin-top: 50px;
+            }
+            
+            .product-header {
+                width: 100%;
+                max-width: 650px;
+                display: flex;
+                justify-content: flex-start;
+                border-bottom: 4px solid lightgray;
+                margin: 0 auto;
             }
