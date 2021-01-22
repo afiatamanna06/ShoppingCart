@@ -150,3 +150,10 @@
                 display: flex;
                 align-items: center;
             }
+            
+            .total {
+                width: 10%;
+                border-bottom: 1px solid lightgray;
+                display: flex;
+                align-items: center;
+            }
