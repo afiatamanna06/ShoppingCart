@@ -146,7 +146,6 @@
             
             .price {
                 width: 15%;
-                border-bottom: 4px solid lightgray;
                 display: flex;
                 align-items: center;
             }
