@@ -98,7 +98,7 @@ function totalCost(product) {
 
 function displayCart() {
     let cartItems = localStorage.getItem('productsInCart');
-    cartItem = JSON.parse(cartItem);
+    cartItems = JSON.parse(cartItems);
 }
 
 onLoadCartNumbers();
