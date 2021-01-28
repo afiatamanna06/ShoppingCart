@@ -100,7 +100,9 @@ function displayCart() {
     let cartItems = localStorage.getItem('productsInCart');
     cartItems = JSON.parse(cartItems);
     let productContainer = document.querySelector(".products-container");
-    if (cartItems && productContainer) {}
+    if (cartItems && productContainer) {
+        productContainer.innerHTML = '';
+    }
 }
 
 onLoadCartNumbers();
