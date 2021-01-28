@@ -102,6 +102,9 @@ function displayCart() {
     let productContainer = document.querySelector(".products-container");
     if (cartItems && productContainer) {
         productContainer.innerHTML = '';
+        Object.values(cartItems).map(item => {
+
+        });
     }
 }
 
