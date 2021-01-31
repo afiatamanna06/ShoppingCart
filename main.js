@@ -104,7 +104,9 @@ function displayCart() {
         productContainer.innerHTML = '';
         Object.values(cartItems).map(item => {
             productContainer.innerHTML += `
-            <div class='product'>`;
+            <div class='product'>
+                <ion-icon name="close-circle-outline"></ion-icon>
+                <img src="./images/${item.tag}.jpg">`;
         });
     }
 }
