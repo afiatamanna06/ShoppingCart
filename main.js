@@ -103,7 +103,8 @@ function displayCart() {
     if (cartItems && productContainer) {
         productContainer.innerHTML = '';
         Object.values(cartItems).map(item => {
-
+            productContainer.innerHTML += `
+            <div class='product'>`;
         });
     }
 }
